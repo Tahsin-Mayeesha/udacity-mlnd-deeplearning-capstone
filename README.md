@@ -1,6 +1,6 @@
 # Udacity-mlnd-deeplearning-capstone
 
-Transfer Learning with VGG16 and Inception-V3 architecture on multi-class fish classification with data from [Nature Conservancy Fishery Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring)
+Transfer Learning with VGG16 neural network architecture on multi-class fish classification problem with data from [Nature Conservancy Fishery Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring)
 Competition on [Kaggle](https://www.kaggle.com/)
 
 
