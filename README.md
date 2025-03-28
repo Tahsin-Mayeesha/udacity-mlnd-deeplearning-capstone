@@ -1,25 +1,40 @@
-# Udacity-mlnd-deeplearning-capstone
+# Udacity MLND Deep Learning Capstone  
 
-Transfer Learning with VGG16 neural network architecture on multi-class fish classification problem with data from [Nature Conservancy Fishery Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring)
-Competition on [Kaggle](https://www.kaggle.com/). The final model yilds 1.19 log-loss in the leaderboard with a top-45% ranking currently(so far my best one:D)
+## Transfer Learning for Multi-Class Fish Classification  
 
-The final report with model visualizations and validation plots is [here](https://github.com/Tahsin-Mayeesha/udacity-mlnd-deeplearning-capstone/blob/master/capstone%20final%20report.pdf) 
+This project leverages **transfer learning** with the **VGG16** neural network architecture to classify multiple fish species. The dataset is sourced from the [Nature Conservancy Fishery Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring) competition on [Kaggle](https://www.kaggle.com/).  
+
+The final model achieves a **log-loss of 1.19**, placing in the **top 45%** of the leaderboard.  
+
+For a detailed analysis, including model architecture, visualizations, and validation results, refer to the final report:  
+📄 [Capstone Final Report](https://github.com/Tahsin-Mayeesha/udacity-mlnd-deeplearning-capstone/blob/master/capstone%20final%20report.pdf)  
+
+---
+
+## 📌 Project Overview  
+
+The goal of this project is to develop an efficient **deep learning model** for fish classification using transfer learning techniques. The **VGG16** architecture is fine-tuned on the dataset to improve classification accuracy.  
+
+### Key Features:  
+- **Transfer Learning with VGG16**: Pretrained on ImageNet and fine-tuned for fish classification.  
+- **Data Preprocessing**: Train-validation split for better generalization.  
+- **Model Visualization**: Includes diagrams and performance metrics.  
+- **Reproducible Workflow**: Jupyter notebooks and scripts for easy replication.  
 
 
-![fish](http://www.remix-video.com/contents/member/mediasoftpro/photos/1537701-1024x783-BLUE-MAN-GROUP-21aad0.jpg)
+---
 
-# Dependencies : 
+## 🚀 Usage Instructions
 
-* Python 2.7+/3.5
-* keras ```pip install keras```
-* tensorflow ```pip install tensorflow```
+- Download the dataset from Kaggle.
+- Prepare the dataset using the Train-Validation Split Notebook to organize training data into appropriate directories.
+- Explore the methodology by reviewing the Capstone Final Report.
+- Run the models from the Jupyter notebooks under the notebooks/ directory.
+- Use scripts from the scripts/ folder for additional processing and training tasks.
+- Analyze model performance through provided diagrams and evaluation charts.
 
-Note that keras and tensorflow have their own dependencies. I recommend using [Anaconda](https://anaconda.org") for handlinng the packages.
+---
 
-# Usage : 
+## 📢 Acknowledgments
+This project was developed as part of the Udacity Machine Learning Engineer Nanodegree. Special thanks to Kaggle and the Nature Conservancy Fishery Monitoring competition for providing the dataset.
 
-* Download data from Kaggle
-* Use Train-Validation Split Notebook to split train data into proper directories
-* Read the capstone-final report for understanding the approaches taken in solving this problem
-* Notebooks are under the "notebooks" folder and scripts are under the "scripts" folder. 
-* All the model diagrams and performance charts are provided.
